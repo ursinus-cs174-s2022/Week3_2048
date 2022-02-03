@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include "randutils.h"
 using namespace std;
 
 int board[4][4];
