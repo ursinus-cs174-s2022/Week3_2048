@@ -35,7 +35,7 @@ float x = ((float)(getMicroseconds()%1000))/1000;
  * 
  * @return float 
  */
-float rand() {
+float randfloat() {
     float ret = RAND_A*x + RAND_C;
     float fac = (float)((int)(ret/RAND_M));
     x = ret - fac*RAND_M;

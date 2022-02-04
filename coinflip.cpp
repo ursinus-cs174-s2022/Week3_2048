@@ -3,7 +3,7 @@
 
 int main() {
     for (int i = 0; i < 100; i++) {
-        if (rand() < 0.5) {
+        if (randfloat() < 0.5) {
             printf("H");
         }
         else {
